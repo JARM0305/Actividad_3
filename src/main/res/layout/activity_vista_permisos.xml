@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20sp"
+    android:background="@drawable/border_linear_layout"
+    tools:context=".VistaPermisos">
+
+    <TextView
+        android:id="@+id/tvTitulo2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingTop="10sp"
+        android:layout_marginBottom="2sp"
+        android:textAlignment="center"
+        android:text="@string/tvTitulo2" />
+
+    <TextView
+        android:id="@+id/tvCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:background="@drawable/boder_text_view"
+        android:text="@string/tvCamera" />
+
+    <TextView
+        android:id="@+id/tvAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:background="@drawable/boder_text_view"
+        android:padding="5sp"
+        android:text="@string/tvAudio"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:background="@drawable/boder_text_view"
+        android:padding="5sp"
+        android:text="@string/tvCell"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvSendSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:background="@drawable/boder_text_view"
+        android:text="@string/tvSendSMS" />
+
+    <TextView
+        android:id="@+id/tvLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:background="@drawable/boder_text_view"
+        android:text="@string/tvLocation" />
+
+    <Button
+        android:id="@+id/btnRequestPermissionCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnRequestPermissionCamera"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp" />
+
+    <Button
+        android:id="@+id/btnResquestPermissionAudio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:padding="5sp"
+        android:text="@string/btnRequestPermissionAudio"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRequestPermissionCell"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:padding="5sp"
+        android:text="@string/btnRequestPermissionCell"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/btnRequestPermissionSMS"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:padding="5sp"
+        android:textSize="16sp"
+        android:text="@string/btnRequestPermissionSMS" />
+
+    <Button
+        android:id="@+id/btnRequestPermissionLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp"
+        android:padding="5sp"
+        android:textSize="16sp"
+        android:text="@string/btnRequestPermissionLocation" />
+
+    <Button
+        android:id="@+id/btnVolver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/btnVolver"
+        android:textSize="16sp"
+        android:padding="5sp"
+        android:layout_marginTop="2sp"
+        android:layout_marginBottom="2sp" />
+
+    <TextView
+        android:id="@+id/tvResponse"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_marginTop="5sp"
+        android:textColor="#9A24D5"
+        android:padding="5sp"
+        android:text="@string/tvResponse" />
+
+</LinearLayout>

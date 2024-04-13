@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">PermisosCelular</string>
+    <string name="tvTitulo1">Gestión de Recursos</string>
+    <string name="tvVersionAndroidLB">1. Versión Android:</string>
+    <string name="tvVersionAndroid"></string>
+    <string name="tvLight">2. Flashlight:</string>
+    <string name="btnOff">Off</string>
+    <string name="btnOn">On</string>
+    <string name="tvLevelBaterryLB">3. Level of Baterry</string>
+    <string name="tvLevelBaterry"></string>
+    <string name="pbLevelBaterry"></string>
+    <string name="tvConectionLB">4. Conection:</string>
+    <string name="tvConexion"></string>
+    <string name="tvTitulo2">Gestión Permisos</string>
+    <string name="tvDactilar">Status Permission FingerPrint</string>
+    <string name="tvCamera">Status Permission Camera</string>
+    <string name="tvAudio">Status Permission Record Audio</string>
+    <string name="tvCell">Status Permission Call Phone</string>
+    <string name="tvInternet">Status Permission Internet</string>
+    <string name="tvSendSMS">Status Permission Send SMS</string>
+    <string name="tvLocation">Status Permission Location</string>
+    <string name="tvArchivo">5. Enter File Name</string>
+    <string name="etNombreArchivo">File Name</string>
+    <string name="btnCheckPermission">Check Permission</string>
+    <string name="btnRequestPermissionCamera">Request Permission Camera</string>
+    <string name="btnVolver">Go back</string>
+    <string name="btnRequestPermissionAudio">Request Permission Record Audio</string>
+    <string name="btnRequestPermissionCell">Request Permission Call Phone</string>
+    <string name="btnRequestPermissionSMS">Request Permission SMS</string>
+    <string name="btnRequestPermissionLocation">Request Permission Location</string>
+    <string name="btnArchivo">Save File</string>
+    <string name="tvResponse"></string>
+</resources>
